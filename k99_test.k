@@ -3,3 +3,4 @@ check:{[n;expected;expr]
 
 check[1; "o"; last "foo"]
 check[2; "e"; butlast "abcdef"]
+check[3; "c"; elementat["abcdef";3]]
