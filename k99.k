@@ -9,3 +9,6 @@ elementat:{(0,x)@y}
 
 / Problem 4
 length: #:
+
+/ Problem 5
+reverse: |:
