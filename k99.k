@@ -12,3 +12,6 @@ length: #:
 
 / Problem 5
 reverse: |:
+
+/ Problem 6
+ispalindrome:{x~|x}
