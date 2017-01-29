@@ -22,4 +22,12 @@ ispalindrome:{x~|x}
 flatten: ,//
 
 / Problem 8
-compress: "todo"
+compress: {x[&~=': x,"_"]}
+/ FIXME it only works with strings of length >1 that don't end with "_".
+/ How it works:
+/   =':  -> a=b for each a,b pair of x
+/   ~    -> reverse it, i.e. a!=b
+/   &    -> get the indexes of the 1s (i.e. where a!=b)
+/   x[…] -> get those
+/
+/ We need to append another char so that the last letter is returned
