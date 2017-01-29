@@ -22,3 +22,13 @@ You can test the solutions with the following command:
 
 * `k99.k` contains the solutions
 * `k99_test.k` contains basic tests
+
+## Resources
+
+It is unsurprisingly hard to find resources about K given its name and the size
+of its community (small).
+
+* [Kona’s wiki](https://github.com/kevinlawler/kona/wiki)
+* [Intro to K](https://www.cs.nyu.edu/courses/fall02/G22.3033-007/kintro.html)
+* [Verbs](https://github.com/kevinlawler/kona/wiki/Verbs-Classification) aka
+  basic operations
